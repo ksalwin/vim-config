@@ -1,4 +1,5 @@
 " Vim config
+" Requires gotham color scheme
 
 " Turn on line numbering
 set number
@@ -31,4 +32,4 @@ set noexpandtab
 syntax on
 
 " Use gotham color scheme located in ~/.vim/colors
-"colorscheme gotham
+colorscheme gotham
