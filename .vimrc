@@ -32,4 +32,4 @@ set noexpandtab
 syntax on
 
 " Use gotham color scheme located in ~/.vim/colors
-"colorscheme gotham
+colorscheme gruvbox 
