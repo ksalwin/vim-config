@@ -1,35 +1,76 @@
-" Vim config
-" Requires gotham color scheme
-
-" Turn on line numbering
-set number
-
-"Maximum width of text that is being inserted
-set textwidth=100
-
-" Add colored column at specific column
-set colorcolumn=101
-
-" Change color of ColorColumn
-highlight ColorColumn ctermbg=8
-
-" Copy indent from current line when starting a new line
-set autoindent
-
-" Set number of spaces that a <Tab> counts for (only for rendering, does not affect code)
-set tabstop=8
-
-" Set number of spaces that a <Tab> counts for while performing editing operations
-set softtabstop=8
-
-" Set number of spaces to use for each step of (auto)indent
-set shiftwidth=8
-
-" Do not expand tabs to spaces
-set noexpandtab
-
-" Turn on syntax highlighting
+"Syntax highlighting: [ON]
 syntax on
 
-" Use gotham color scheme located in ~/.vim/colors
-colorscheme gruvbox 
+"Color scheme
+colorscheme wildcharm
+
+"Highlight current line
+set cursorline
+
+"Line numbering: [ON]
+set number
+
+"Line numbering relative to cursor: [OFF]
+"set relativenumber
+
+"Incremental search: [ON]
+"VIM will show the first match as you type
+set incsearch
+
+"Highlight serach results: [ON]
+set hlsearch
+
+"Ignore cases in search: [ON]
+set ignorecase
+
+"Enable smart case search: [ON]
+set smartcase
+
+"Auto-indentation: [ON]
+set autoindent
+
+"Define TAB size: 4
+set tabstop=4
+set shiftwidth=4
+
+"Show matching brackets when cursor is over them
+set showmatch
+
+"Draw vertical line
+set colorcolumn=80
+
+"Line wrapping
+set wrap
+
+"Clipboard usage: [ON]
+set clipboard=unnamedplus
+
+"Display a status line at the bottom: [OFF]
+"0 - never, 2 - always
+set laststatus=0
+
+"Line and column numbers in the status line: [ON]
+set ruler
+
+"Persistent undo dir
+set undodir=~/.vim/undodir
+"Persistent undo: [ON]
+set undofile
+
+"Timeout length for key mappings
+"set timeoutlen=500
+
+"Enhance command-line completition: [ON]
+set wildmenu
+
+"Mouse support: [ON]
+set mouse=a
+
+"Spell checking: [OFF]
+"set spell
+
+"Folding to hide or show code sections: [ON]
+set foldmethod=syntax
+set foldlevel=99
+
+set noexpandtab
