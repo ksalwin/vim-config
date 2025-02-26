@@ -4,6 +4,9 @@ syntax on
 "Color scheme
 colorscheme wildcharm
 
+"Tell Vim that the background is dark to prevent screen from blinking when opening Vim
+set background=dark
+
 "Highlight current line
 set cursorline
 
@@ -37,7 +40,7 @@ set shiftwidth=4
 set showmatch
 
 "Draw vertical line
-set colorcolumn=80
+set colorcolumn=90
 
 "Line wrapping
 set wrap
@@ -73,4 +76,5 @@ set mouse=a
 set foldmethod=syntax
 set foldlevel=99
 
+"Do not expand tabs to spaces
 set noexpandtab
