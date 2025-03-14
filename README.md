@@ -1,4 +1,6 @@
 # vim_config
 Vim config file.
 
-Copy config file .vimrc to \~
+# How to use
+Run `make install` to copy `.vimrc` to Home directory.
+Alternatively, copy `.vimrc` manually to `~/`
