@@ -1,6 +1,6 @@
 -- ─── Basic syntax & colors ─────────────────────────────────────────────────────
 vim.cmd.syntax('on')                -- enable syntax highlighting
--- vim.cmd.colorscheme('wildcharm')    -- colorscheme
+vim.cmd.colorscheme('habamax')    -- colorscheme
 vim.o.background = 'dark'           -- expect dark background
 
 -- ─── UI tweaks ─────────────────────────────────────────────────────────────────
