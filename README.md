@@ -1,5 +1,5 @@
 ## vim-config
-Vim config file.
+Vim and Neovim config file.
 
 ## How to use
 Run `make install` command.\
