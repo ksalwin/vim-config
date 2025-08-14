@@ -7,7 +7,7 @@ vim.o.background = 'dark'           -- expect dark background
 vim.opt.cursorline   = true         -- highlight current line
 vim.opt.number       = true         -- absolute line numbers
 -- vim.opt.relativenumber = true     -- (keep disabled as in original)
-vim.opt.colorcolumn  = '90'         -- vertical guide
+vim.opt.colorcolumn  = '111'        -- vertical guide
 vim.opt.wrap         = true         -- keep wrapping lines
 vim.opt.ruler        = true         -- show line & column in statusline
 vim.opt.laststatus   = 0            -- statusline off (0 = never)
